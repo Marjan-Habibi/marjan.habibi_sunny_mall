@@ -1,0 +1,119 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+.bg-light{
+    background-color:  rgb(241, 242, 243);
+    margin-top: 0;
+   
+}
+header {
+    background-color: orange;
+    color: white;
+    padding: 20px 40px;
+    position: relative;
+    height: 120px;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  nav {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+.shop-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap;  
+    padding: 20px;
+  }
+  
+  .shop-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .shop-item:hover {
+    transform: translateY(-5px);
+  }
+.logo{
+    background-color: orange;
+}
+.button{
+    background-color: orange;
+    display: inline block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+image{
+    float: inline-start;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+h3{
+    color: orange;
+}
+.event-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap;  
+    padding: 20px;
+}
+.event-item{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100px;
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.event-item:hover {
+    transform: translateY(-5px);
+  }
+  .social-link{
+    color: white;
+    background-color: orange;
+
+  }
+  .social-link:hover{
+    transform: translateY(-5px);
+  }
